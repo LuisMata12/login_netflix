@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap');
+
+.img_bg{
+    width:100vw;
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-image:url('/image_netflix_bg.jpeg');
+    font-family: 'Raleway', sans-serif;
+    filter: brightness(.5);
+}
+.img_bg_filter{
+  width:100vw;
+  height:100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: scroll;
+}
+/* .container_logo{
+  opacity: 1.5;
+} */
+.logo_netflix{
+  width: 25%;
+  max-width: 200px;
+  padding: 30px;
+}
+.login_container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.login{
+  backdrop-filter: brightness(0.3);
+  width: 25%;
+  min-width: 250px;
+  padding: 15px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.login h1{
+  font-weight: 500;
+}
+.login form{
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  justify-content: center;
+  align-items: center;
+}
+.input-single{
+  position: relative;
+  margin-bottom: 25px;
+  width: 100%;
+}
+.input-single label{
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  color: rgb(22, 21, 21);
+  cursor: text;
+  transition: 0.5s;
+  font-size: 16px;
+}
+.input-single input{
+  width: 100%;
+  padding: 5px;
+  border: none;
+  outline: none;
+  background-color: white;
+  border-radius: 3px;
+  height: 35px;
+  color: black;
+}
+.input-single input:focus~label,
+.input-single input:valid~label{
+  transform: translateY(-17px);
+  font-size: 12px;
+}
+.btn_login{
+  background-color: #e50914;
+  border: none;
+  width: 85%;
+  height: 39px;
+  margin-top: 15px;
+  border-radius: 3px;
+}
+.helpers{
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+  font-size: 11px;
+  color: rgb(145, 145, 145);
+}
+.helpers div{
+  display: flex;
+  align-items: center;
+}
+.primera_vez{
+  width: 85%;
+  font-size: 12px;
+  color: rgb(145, 145, 145);
+}
+.sub{
+  color: white;
+  font-weight: 500;
+}
+.blue_info{
+  color: rgb(62, 62, 238);
+}
